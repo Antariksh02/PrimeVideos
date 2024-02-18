@@ -1,0 +1,79 @@
+.LoginSection{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.Login{
+    width: 350px;
+    height: auto;
+    padding: 10px 0;
+}
+.logo{
+    text-align: center;
+    padding: 10px 0;
+}
+.LoginPage{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    border-radius: 15px;
+}
+.userInput{
+    padding-bottom: 20px;
+}
+.userInput p{
+margin: 0;
+font-size: 12px;
+font-weight: 700;
+}
+.userInput input{
+    width:100%;
+    height: 30px;
+    margin-top: 0;
+
+}
+.userInput input:nth-child(3){
+    background-color: #ffd814;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.condition{
+    font-size: 12px;
+}
+.condition span{
+    color: #0066c0;
+}
+.LoginPage h6{
+color: #0066c0;
+font-size: 13px;
+}
+.NewtoAmazon{
+    position: relative;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+.NewtoAmazon h6{
+    position: absolute;
+    top:38%;
+    left: 35%;
+    background-color: white;
+    color: grey;
+ font-size: 12px;
+ padding: 0 5px;
+}
+.createAmazonAcc input{
+width: 100%;
+border-radius: 10px;
+padding: 5px 0;
+font-size: 14px;
+border: 1px solid lightgrey;
+background-color: transparent;
+}

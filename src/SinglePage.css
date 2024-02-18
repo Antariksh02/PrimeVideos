@@ -1,0 +1,193 @@
+.Page{
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+ background-color: black;
+ background-position: right ;
+
+}
+.infoPage{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(20%);
+    display: flex;
+    padding: 20px 0;
+
+}
+
+.ImageSide{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ImageSideContainer{
+    width:300px;
+    height: 400px;
+}
+.infoSide{
+    width: 70%;
+    height: 100%;
+    color: white;
+}
+.infoSide h2{
+    font-size: 42px;
+    font-weight: 700;
+}
+.overView{
+    font-weight: 700;
+}
+.subInfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    color: #999;
+   
+}
+.subInfo h6{
+    font-weight: 700;
+}
+.date{
+    display: flex;
+}
+.generes{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.generes h6{
+    text-decoration: underline;
+}
+.subsubInfo{
+    position: absolute;
+    bottom: 80px;
+}
+.tagLine{
+    padding: 20px 0;
+    font-size: 20px;
+    font-style: italic;
+    color: lightgrey;
+    font-weight: 900;
+}
+.trailer{
+    padding-top: 40px;
+   display: flex;
+   gap: 4px;
+   align-items: center;
+
+}
+.trailer h6{
+    margin: 0;
+}
+.Trailer{
+    background-color: #999;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 10px;
+    width: 100px;
+    backdrop-filter: brightness(80%);
+}
+
+@media (max-width:600px) {
+    .Page{
+        width: 100%;
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+     background-color: black;
+     background-position: center ;
+     display: flex;
+     align-items: end;
+    
+    }
+    .infoPage{
+        width: 100%;
+        height: 100%;
+        backdrop-filter: brightness(20%);
+        display: block;
+        padding: 20px 10px;
+
+    
+    }
+    
+    .ImageSide{
+        width: 100%;
+        height: 80px;
+        display: none;
+    }
+
+    .infoSide{
+        width: 100%;
+        height: 100px;
+        color: white;
+
+    }
+    .infoSide h2{
+        font-size: 42px;
+        font-weight: 700;
+    }
+    .overView{
+        font-weight: 700;
+    }
+
+    #myElement{
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .subInfo{
+        display: flex;
+        gap: 15px;
+        color: #999;
+       
+    }
+    .subInfo h6{
+        font-weight: 700;
+    }
+    .date{
+        display: flex;
+    }
+    .generes{
+        display: flex;
+        gap: 5px;
+    }
+    .generes h6{
+        text-decoration: underline;
+    }
+    .subsubInfo{
+        position: absolute;
+        bottom: 20px;
+    }
+    .tagLine{
+        padding: 20px 0;
+        font-size: 20px;
+        font-style: italic;
+        color: lightgrey;
+        font-weight: 900;
+    }
+    .trailer{
+        padding-top: 40px;
+       display: flex;
+       gap: 4px;
+       align-items: center;
+    
+    }
+    .trailer h6{
+        margin: 0;
+    }
+    .Trailer{
+        background-color: #999;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        padding: 10px;
+        width: 100px;
+        backdrop-filter: brightness(80%);
+    }
+}

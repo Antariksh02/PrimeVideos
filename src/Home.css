@@ -1,0 +1,378 @@
+main{
+  width: 100%;
+  height: auto;
+  background-color: azure;
+}
+header{
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.headerInfo{
+  width: 50%;
+  height: 100%;
+  color: white;
+  padding: 40px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1)16%);
+}
+.headerInfo h1{
+  font-size: 40px;
+}
+.headerInfo p{
+  font-size: 22px;
+  font-weight: 100;
+}
+.headerInfo button{
+  width: 300px;
+  padding: 14px 50px;
+  border-radius: 3px;
+  background-color: #0f79af;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+.header2{
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header2Info{
+  width: 50%;
+  height: 100%;
+  color: white;
+  padding: 40px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1)16%);
+}
+.header2Info h1{
+  font-size: 40px;
+}
+.header2Info p{
+  font-size: 22px;
+  font-weight: 100;
+}
+.header2Info button{
+  width: 300px;
+  padding: 14px 50px;
+  border-radius: 3px;
+  background-color: #0f79af;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+
+
+
+
+
+.header3{
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  color: black;
+  display: flex;
+  padding: 10px 0;
+}
+.header3Info{
+  width: 50%;
+  height: 100%;
+  padding: 40px;
+}
+.header3Info p {
+  font-size: 24px;
+  font-weight: 200;
+}
+.channels{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.channelName{
+width: 200px;
+height: 138px;
+background-color: #0f79af;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.channelName:nth-child(1){
+  background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/LionsgatePlay-426X2946_V1.jpg');
+
+}
+.channelName:nth-child(2){
+  background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Discovery.jpg');
+}
+.channelName:nth-child(3){
+  background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_BBC_PLAYER.png');
+}
+.channelName:nth-child(4){
+  background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_MANORAMAMAX.jpg');
+}
+.channelName:nth-child(5){
+  background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/hoichoi-426X2946_V1.jpg');
+}
+.channelName:nth-child(6){
+  background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Chaupal.png');
+}
+.channelName:nth-child(7){
+  background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Anime.jpg');
+}
+.channelName:nth-child(8){
+  background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Erosnow-426X2948_V1.jpg');
+}
+.channelName:nth-child(9){
+  background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Mubi-426X2946_V1.jpg');
+}
+.channelName:nth-child(10){
+  background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Vrott.png');
+}
+.channelName:nth-child(11){
+  background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Stingray.png');
+}
+.channelName:nth-child(12){
+  background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Docubay-426X2947_V1.jpg');
+ 
+}
+.channelName:hover{
+  box-shadow: 0px 0px 10px 3px;
+}
+
+.header4{
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header4Info{
+  width: 52%;
+  height: 100%;
+  color: white;
+  padding: 40px;
+  float: right;
+}
+
+.header4Info h1{
+  font-size: 40px;
+  font-weight: 100;
+}
+.header4Info p{
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 1;
+}
+.header4Info button{
+  width: 300px;
+  padding: 14px 50px;
+  border-radius: 3px;
+  background-color: #0f79af;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+@media (max-width:600px) {
+  header{
+    width: 100%;
+    height: auto;
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    display: flex;
+    align-items: end;
+padding: 40px 0;
+   
+  }
+  .headerInfo{
+    width: 100%;
+    height: auto;
+    color: white;
+    margin-top: 100px;
+    padding: 0px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1)16%);
+    text-align: center;
+  }
+  .headerInfo h1{
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .headerInfo p{
+    font-size: 22px;
+    font-weight: 100;
+  }
+  .headerInfo button{
+    width: 300px;
+    padding: 14px 50px;
+    border-radius: 3px;
+    background-color: #0f79af;
+    border: none;
+    color: white;
+    font-weight: 700;
+  }
+  .header2{
+    width: 100%;
+    height: auto;
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right._SX1440_CR575,0,865,675_QL80_AC_FP_.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: left;
+    padding: 40px 0;
+
+  }
+  .header2Info{
+    width: 100%;
+    height: auto;
+    margin-top: 140px;
+    color: white;
+    padding: 0px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1)5%);
+    text-align: center;
+  }
+  .header2Info h1{
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .header2Info p{
+    font-size: 22px;
+    font-weight: 100;
+  }
+  .header2Info button{
+    width: 300px;
+    padding: 14px 50px;
+    border-radius: 3px;
+    background-color: #0f79af;
+    border: none;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .header3{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+  .header3Info{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    text-align: center;
+  }
+  .header3Info h1{
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .header3Info p {
+    font-size: 24px;
+    font-weight: 200;
+  }
+  .channels{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+  .channelName{
+  width: 120px;
+  height: 84px;
+  background-color: #0f79af;
+  background-repeat: no-repeat;
+  background-size: contain;
+  }
+  
+  .channelName:nth-child(1){
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/LionsgatePlay-426X2946_V1.jpg');
+  
+  }
+  .channelName:nth-child(2){
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Discovery.jpg');
+  }
+  .channelName:nth-child(3){
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_BBC_PLAYER.png');
+  }
+  .channelName:nth-child(4){
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_MANORAMAMAX.jpg');
+  }
+  .channelName:nth-child(5){
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/hoichoi-426X2946_V1.jpg');
+  }
+  .channelName:nth-child(6){
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Chaupal.png');
+  }
+  .channelName:nth-child(7){
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Anime.jpg');
+  }
+  .channelName:nth-child(8){
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Erosnow-426X2948_V1.jpg');
+  }
+  .channelName:nth-child(9){
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Mubi-426X2946_V1.jpg');
+  }
+  .channelName:nth-child(10){
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Vrott.png');
+  }
+  .channelName:nth-child(11){
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Stingray.png');
+  }
+  .channelName:nth-child(12){
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Docubay-426X2947_V1.jpg');
+   
+  }
+  .channelName:hover{
+    box-shadow: 0px 0px 10px 3px;
+  }
+  
+  .header4{
+    width: 100%;
+    height: auto;
+    background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 0;
+    background-position-x: 80px ;
+
+  }
+  .header4Info{
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 140px 10px;
+    float: none;
+    text-align: center;
+  }
+  
+  .header4Info h1{
+    font-size: 35px;
+    font-weight: 100;
+    text-align: start;
+  }
+  .header4Info p{
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 1;
+  }
+  .header4Info button{
+    width: 300px;
+    padding: 14px 50px;
+    border-radius: 3px;
+    background-color: #0f79af;
+    border: none;
+    color: white;
+    font-weight: 700;
+  }
+}

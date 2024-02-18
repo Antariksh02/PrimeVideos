@@ -1,0 +1,25 @@
+.filter{
+    background-color: #00050d;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 10px 40px;
+}
+
+.filterBtn{
+    width: auto;
+    height: 30px;
+    padding: 10px 15px;
+    background-color: #33373d;
+border: none;
+    color:white;
+    text-align: center;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

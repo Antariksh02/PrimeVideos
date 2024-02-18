@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+.movieSection{
+  padding: 0px 0 40px 0;
+}
+.movieSectionHeading span{
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+}
+.movieSectionHeading h1{
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+.carousel-inside-slide {
+    border-radius: 15px;
+    height: 200px;
+    overflow: hidden;
+
+  }
+ 
+  .carousel-inside-slideImg{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(30%);
+    z-index: 555;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+  }
+  .carousel-inside-slideImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .slick-slide {
+    margin-right: 5px; /* Adjust the value to set the desired gap between slides */
+
+
+  }
+
+  .slick-slider {
+    /* Add your custom styles for the slider container here */
+    margin: 0 10px;
+  }
+  @media (max-width:600px) {
+    .movieSectionHeading{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .movieSectionHeading span{
+      font-family: "Overpass", sans-serif;
+      font-weight: 700;
+    }
+    .prime{
+      width: 60%;
+    }
+    .seemore{
+      width: 40%;
+    }
+    .movieSectionHeading h1{
+      font-family: "Overpass", sans-serif;
+      font-weight: 700;
+      padding: 10px 10px;
+     
+    }
+    .slick-slider {
+      /* Add your custom styles for the slider container here */
+      margin: 0px;
+    }
+  }
+  .slick-prev,
+  .slick-next {
+    /* Add your custom styles for the navigation arrows here */
+    font-size: 0px;
+    color: #333;
+    display: none;
+    background-color: transparent; 
+  }
+
+.slick-track{
+  height: 100px;
+  margin: 0;
+}
+.slick-arrow{
+    color: red;
+}
+
+/* Style for the custom arrows */
+.custom-prev-arrow,
+.custom-next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #fff; /* Arrow color */
+
+  padding: 10px; /* Padding around the arrow */
+  cursor: pointer;
+  z-index: 1; /* Ensure arrows are above the slides */
+  font-size: 35px;
+  backdrop-filter: brightness(20%);
+}
+
+/* Style for the next arrow (right) */
+.custom-next-arrow {
+  right: 0;
+}
+
+/* Style for the previous arrow (left) */
+.custom-prev-arrow {
+  left: 0;
+}

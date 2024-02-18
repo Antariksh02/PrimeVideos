@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+.homeHeader{
+  width: 100%;
+  height: 600px;
+  margin-bottom: 20px;
+  background-color: #00050d;
+  font-family: 'YourFont';
+}
+.homeHeader .carousel{
+height: 100%;
+background-color: #00050d;
+}
+.homeHeader .carousel-inner{
+background-color: #1a98ff;
+height: 100%;
+}
+.homeHeader .carousel-item{
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+  display: block;
+}
+
+.carousel-control-next-icon{
+  z-index: 5;
+}
+.homePage{
+    width: 100%;
+    height: auto;
+    background-color: #00050d;
+    padding: 20px 0;
+  color: white;
+  
+}
+
+.movieSection{
+    width: 100%;
+    height: auto;
+    background-color: #00050d;
+    overflow: hidden;
+    margin-bottom: 40px;
+    color: white;
+}
+.movieSectionHeading{
+  display: flex;
+}
+
+.movieSection h1{
+  font-size: 20px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+ 
+}
+.movieSection span{
+color: #1a98ff;
+
+}
+@media (max-width:600px) {
+  .movieSectionHeading{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .movieSection h1{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+   
+  }
+  .movieSection span{
+  color: #1a98ff;
+  
+  }
+}
+
+/*------------------------------------------------------*/
+
+.homeMovieCarousel{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #00050d;
+}
+.carouselInside{
+  display: flex;
+  transition:  0.5s ease;
+  background-color:gray;
+  height: 100%;
+  padding: 0;
+  width: 100%;
+}
+.carouselInsideSlide{
+ height: 100%;
+  min-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  overflow: hidden;
+  background-color: #00050d;
+
+}
+
+@media (max-width:600px) {
+  .homeHeader{
+    width: 100%;
+    height: 400px;
+    background-color: #1a98ff;
+  }
+  .carouselInsideSlide{
+    height: 100%;
+     min-width: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 1px;
+     overflow: hidden;
+     background-color: #00050d;
+   
+   }
+   .movieDetails{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+  }
+  .movieDetails h1{
+    font-size: 40px !important;
+    }
+
+    .moreDetails button{
+      padding: 10px 16px !important;
+      border: none;
+      border-radius: 10px;
+      font-size: 14px !important;
+      font-weight: bold;
+      }
+
+}
+
+.carouselInsideSlideImg{
+  display: flex;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(30%);
+}
+
+
+.movieDetails{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1)70%);
+}
+.movieDetails h1{
+font-size: 80px;
+}
+.movieDetail{
+  padding: 0 40px;
+  width: 500px;
+}
+.moreDetails button{
+padding: 20px 20px;
+border: none;
+border-radius: 10px;
+font-size: 18px;
+font-weight: bold;
+}
+
+.popularCardSubInfo h5{
+  padding: 5px 10px ;
+  background-color: rgba(150, 148, 148, 0.259);
+}
+
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 44px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white; /* Adjust the color as needed */
+  backdrop-filter: brightness(20%);
+  padding: 10px; 
+}
+
+.previous {
+  left: 10px;
+}
+
+.nextPage {
+  right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+  }
+  
+  #myInput {
+    box-sizing: border-box;
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
